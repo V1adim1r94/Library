@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: library
+
+  task:
+    scheduling:
+      pool:
+        size: 1
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username:
+    password:
+    url:
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "gmail user name"
+    password: "your password"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  schedule:
+    delay: "0 12 * * * ?"
+

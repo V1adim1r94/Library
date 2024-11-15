@@ -1,0 +1,1164 @@
+POST http://localhost:8080/library/subscription
+Content-Type: application/json
+
+{
+  "data": [
+    {
+      "username": "user001",
+      "userFullName": "Test User 001",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 001-1",
+          "bookAuthor": "Author B",
+          "publication": "2004-12-09"
+        },
+        {
+          "bookName": "Unique Book Title 001-2",
+          "bookAuthor": "Author C",
+          "publication": "2008-11-07"
+        }
+      ]
+    },
+    {
+      "username": "user002",
+      "userFullName": "Test User 002",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 002-1",
+          "bookAuthor": "Author C",
+          "publication": "2022-09-12"
+        },
+        {
+          "bookName": "Unique Book Title 002-2",
+          "bookAuthor": "Author D",
+          "publication": "2003-08-17"
+        },
+        {
+          "bookName": "Unique Book Title 002-3",
+          "bookAuthor": "Author E",
+          "publication": "2009-07-05"
+        },
+        {
+          "bookName": "Unique Book Title 002-4",
+          "bookAuthor": "Author F",
+          "publication": "2001-07-26"
+        },
+        {
+          "bookName": "Unique Book Title 002-5",
+          "bookAuthor": "Author G",
+          "publication": "2014-02-08"
+        }
+      ]
+    },
+    {
+      "username": "user003",
+      "userFullName": "Test User 003",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 003-1",
+          "bookAuthor": "Author D",
+          "publication": "2018-07-20"
+        },
+        {
+          "bookName": "Unique Book Title 003-2",
+          "bookAuthor": "Author E",
+          "publication": "2009-09-30"
+        }
+      ]
+    },
+    {
+      "username": "user004",
+      "userFullName": "Test User 004",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 004-1",
+          "bookAuthor": "Author E",
+          "publication": "2002-09-14"
+        }
+      ]
+    },
+    {
+      "username": "user005",
+      "userFullName": "Test User 005",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 005-1",
+          "bookAuthor": "Author F",
+          "publication": "2017-01-12"
+        },
+        {
+          "bookName": "Unique Book Title 005-2",
+          "bookAuthor": "Author G",
+          "publication": "2024-06-08"
+        }
+      ]
+    },
+    {
+      "username": "user006",
+      "userFullName": "Test User 006",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 006-1",
+          "bookAuthor": "Author G",
+          "publication": "2021-02-02"
+        },
+        {
+          "bookName": "Unique Book Title 006-2",
+          "bookAuthor": "Author H",
+          "publication": "2005-04-03"
+        },
+        {
+          "bookName": "Unique Book Title 006-3",
+          "bookAuthor": "Author I",
+          "publication": "2022-06-06"
+        },
+        {
+          "bookName": "Unique Book Title 006-4",
+          "bookAuthor": "Author J",
+          "publication": "2013-04-15"
+        }
+      ]
+    },
+    {
+      "username": "user007",
+      "userFullName": "Test User 007",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 007-1",
+          "bookAuthor": "Author H",
+          "publication": "2018-01-13"
+        },
+        {
+          "bookName": "Unique Book Title 007-2",
+          "bookAuthor": "Author I",
+          "publication": "2004-05-23"
+        },
+        {
+          "bookName": "Unique Book Title 007-3",
+          "bookAuthor": "Author J",
+          "publication": "2011-07-26"
+        },
+        {
+          "bookName": "Unique Book Title 007-4",
+          "bookAuthor": "Author K",
+          "publication": "2018-01-28"
+        }
+      ]
+    },
+    {
+      "username": "user008",
+      "userFullName": "Test User 008",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 008-1",
+          "bookAuthor": "Author I",
+          "publication": "2012-08-23"
+        },
+        {
+          "bookName": "Unique Book Title 008-2",
+          "bookAuthor": "Author J",
+          "publication": "2001-12-02"
+        },
+        {
+          "bookName": "Unique Book Title 008-3",
+          "bookAuthor": "Author K",
+          "publication": "2001-10-01"
+        },
+        {
+          "bookName": "Unique Book Title 008-4",
+          "bookAuthor": "Author L",
+          "publication": "2019-11-18"
+        },
+        {
+          "bookName": "Unique Book Title 008-5",
+          "bookAuthor": "Author M",
+          "publication": "2005-01-26"
+        }
+      ]
+    },
+    {
+      "username": "user009",
+      "userFullName": "Test User 009",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 009-1",
+          "bookAuthor": "Author J",
+          "publication": "2009-03-08"
+        },
+        {
+          "bookName": "Unique Book Title 009-2",
+          "bookAuthor": "Author K",
+          "publication": "2023-06-12"
+        }
+      ]
+    },
+    {
+      "username": "user010",
+      "userFullName": "Test User 010",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 010-1",
+          "bookAuthor": "Author K",
+          "publication": "2004-03-01"
+        }
+      ]
+    },
+    {
+      "username": "user011",
+      "userFullName": "Test User 011",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 011-1",
+          "bookAuthor": "Author L",
+          "publication": "2001-01-16"
+        },
+        {
+          "bookName": "Unique Book Title 011-2",
+          "bookAuthor": "Author M",
+          "publication": "2010-10-26"
+        }
+      ]
+    },
+    {
+      "username": "user012",
+      "userFullName": "Test User 012",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 012-1",
+          "bookAuthor": "Author M",
+          "publication": "2013-07-01"
+        },
+        {
+          "bookName": "Unique Book Title 012-2",
+          "bookAuthor": "Author N",
+          "publication": "2013-09-09"
+        },
+        {
+          "bookName": "Unique Book Title 012-3",
+          "bookAuthor": "Author O",
+          "publication": "2022-12-13"
+        },
+        {
+          "bookName": "Unique Book Title 012-4",
+          "bookAuthor": "Author P",
+          "publication": "2018-08-21"
+        },
+        {
+          "bookName": "Unique Book Title 012-5",
+          "bookAuthor": "Author Q",
+          "publication": "2002-05-09"
+        }
+      ]
+    },
+    {
+      "username": "user013",
+      "userFullName": "Test User 013",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 013-1",
+          "bookAuthor": "Author N",
+          "publication": "2013-01-30"
+        },
+        {
+          "bookName": "Unique Book Title 013-2",
+          "bookAuthor": "Author O",
+          "publication": "2007-03-23"
+        },
+        {
+          "bookName": "Unique Book Title 013-3",
+          "bookAuthor": "Author P",
+          "publication": "2007-11-11"
+        },
+        {
+          "bookName": "Unique Book Title 013-4",
+          "bookAuthor": "Author Q",
+          "publication": "2002-08-13"
+        }
+      ]
+    },
+    {
+      "username": "user014",
+      "userFullName": "Test User 014",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 014-1",
+          "bookAuthor": "Author O",
+          "publication": "2001-05-26"
+        },
+        {
+          "bookName": "Unique Book Title 014-2",
+          "bookAuthor": "Author P",
+          "publication": "2003-09-25"
+        }
+      ]
+    },
+    {
+      "username": "user015",
+      "userFullName": "Test User 015",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 015-1",
+          "bookAuthor": "Author P",
+          "publication": "2009-05-06"
+        }
+      ]
+    },
+    {
+      "username": "user016",
+      "userFullName": "Test User 016",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 016-1",
+          "bookAuthor": "Author Q",
+          "publication": "2009-06-06"
+        },
+        {
+          "bookName": "Unique Book Title 016-2",
+          "bookAuthor": "Author R",
+          "publication": "2007-01-09"
+        },
+        {
+          "bookName": "Unique Book Title 016-3",
+          "bookAuthor": "Author S",
+          "publication": "2014-11-02"
+        }
+      ]
+    },
+    {
+      "username": "user017",
+      "userFullName": "Test User 017",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 017-1",
+          "bookAuthor": "Author R",
+          "publication": "2019-04-29"
+        },
+        {
+          "bookName": "Unique Book Title 017-2",
+          "bookAuthor": "Author S",
+          "publication": "2004-03-04"
+        },
+        {
+          "bookName": "Unique Book Title 017-3",
+          "bookAuthor": "Author T",
+          "publication": "2016-11-04"
+        },
+        {
+          "bookName": "Unique Book Title 017-4",
+          "bookAuthor": "Author U",
+          "publication": "2006-05-29"
+        },
+        {
+          "bookName": "Unique Book Title 017-5",
+          "bookAuthor": "Author V",
+          "publication": "2007-11-16"
+        }
+      ]
+    },
+    {
+      "username": "user018",
+      "userFullName": "Test User 018",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 018-1",
+          "bookAuthor": "Author S",
+          "publication": "2022-07-31"
+        },
+        {
+          "bookName": "Unique Book Title 018-2",
+          "bookAuthor": "Author T",
+          "publication": "2008-05-28"
+        }
+      ]
+    },
+    {
+      "username": "user019",
+      "userFullName": "Test User 019",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 019-1",
+          "bookAuthor": "Author T",
+          "publication": "2001-01-04"
+        }
+      ]
+    },
+    {
+      "username": "user020",
+      "userFullName": "Test User 020",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 020-1",
+          "bookAuthor": "Author U",
+          "publication": "2018-02-05"
+        },
+        {
+          "bookName": "Unique Book Title 020-2",
+          "bookAuthor": "Author V",
+          "publication": "2004-08-20"
+        },
+        {
+          "bookName": "Unique Book Title 020-3",
+          "bookAuthor": "Author W",
+          "publication": "2008-12-11"
+        },
+        {
+          "bookName": "Unique Book Title 020-4",
+          "bookAuthor": "Author X",
+          "publication": "2002-11-13"
+        },
+        {
+          "bookName": "Unique Book Title 020-5",
+          "bookAuthor": "Author Y",
+          "publication": "2005-09-16"
+        }
+      ]
+    },
+    {
+      "username": "user021",
+      "userFullName": "Test User 021",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 021-1",
+          "bookAuthor": "Author V",
+          "publication": "2000-12-14"
+        },
+        {
+          "bookName": "Unique Book Title 021-2",
+          "bookAuthor": "Author W",
+          "publication": "2013-08-01"
+        },
+        {
+          "bookName": "Unique Book Title 021-3",
+          "bookAuthor": "Author X",
+          "publication": "2004-12-26"
+        }
+      ]
+    },
+    {
+      "username": "user022",
+      "userFullName": "Test User 022",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 022-1",
+          "bookAuthor": "Author W",
+          "publication": "2024-07-25"
+        },
+        {
+          "bookName": "Unique Book Title 022-2",
+          "bookAuthor": "Author X",
+          "publication": "2004-09-26"
+        },
+        {
+          "bookName": "Unique Book Title 022-3",
+          "bookAuthor": "Author Y",
+          "publication": "2016-07-02"
+        },
+        {
+          "bookName": "Unique Book Title 022-4",
+          "bookAuthor": "Author Z",
+          "publication": "2000-04-02"
+        },
+        {
+          "bookName": "Unique Book Title 022-5",
+          "bookAuthor": "Author A",
+          "publication": "2007-04-11"
+        }
+      ]
+    },
+    {
+      "username": "user023",
+      "userFullName": "Test User 023",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 023-1",
+          "bookAuthor": "Author X",
+          "publication": "2010-08-10"
+        },
+        {
+          "bookName": "Unique Book Title 023-2",
+          "bookAuthor": "Author Y",
+          "publication": "2002-07-05"
+        },
+        {
+          "bookName": "Unique Book Title 023-3",
+          "bookAuthor": "Author Z",
+          "publication": "2001-09-24"
+        },
+        {
+          "bookName": "Unique Book Title 023-4",
+          "bookAuthor": "Author A",
+          "publication": "2001-11-23"
+        },
+        {
+          "bookName": "Unique Book Title 023-5",
+          "bookAuthor": "Author B",
+          "publication": "2004-12-10"
+        }
+      ]
+    },
+    {
+      "username": "user024",
+      "userFullName": "Test User 024",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 024-1",
+          "bookAuthor": "Author Y",
+          "publication": "2022-06-22"
+        }
+      ]
+    },
+    {
+      "username": "user025",
+      "userFullName": "Test User 025",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 025-1",
+          "bookAuthor": "Author Z",
+          "publication": "2009-01-27"
+        }
+      ]
+    },
+    {
+      "username": "user026",
+      "userFullName": "Test User 026",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 026-1",
+          "bookAuthor": "Author A",
+          "publication": "2021-03-29"
+        },
+        {
+          "bookName": "Unique Book Title 026-2",
+          "bookAuthor": "Author B",
+          "publication": "2021-07-16"
+        },
+        {
+          "bookName": "Unique Book Title 026-3",
+          "bookAuthor": "Author C",
+          "publication": "2011-12-28"
+        },
+        {
+          "bookName": "Unique Book Title 026-4",
+          "bookAuthor": "Author D",
+          "publication": "2012-11-04"
+        }
+      ]
+    },
+    {
+      "username": "user027",
+      "userFullName": "Test User 027",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 027-1",
+          "bookAuthor": "Author B",
+          "publication": "2010-02-20"
+        },
+        {
+          "bookName": "Unique Book Title 027-2",
+          "bookAuthor": "Author C",
+          "publication": "2009-10-24"
+        },
+        {
+          "bookName": "Unique Book Title 027-3",
+          "bookAuthor": "Author D",
+          "publication": "2023-04-15"
+        },
+        {
+          "bookName": "Unique Book Title 027-4",
+          "bookAuthor": "Author E",
+          "publication": "2003-06-13"
+        }
+      ]
+    },
+    {
+      "username": "user028",
+      "userFullName": "Test User 028",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 028-1",
+          "bookAuthor": "Author C",
+          "publication": "2008-07-21"
+        },
+        {
+          "bookName": "Unique Book Title 028-2",
+          "bookAuthor": "Author D",
+          "publication": "2016-02-14"
+        }
+      ]
+    },
+    {
+      "username": "user029",
+      "userFullName": "Test User 029",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 029-1",
+          "bookAuthor": "Author D",
+          "publication": "2018-01-24"
+        },
+        {
+          "bookName": "Unique Book Title 029-2",
+          "bookAuthor": "Author E",
+          "publication": "2023-01-16"
+        },
+        {
+          "bookName": "Unique Book Title 029-3",
+          "bookAuthor": "Author F",
+          "publication": "2016-09-19"
+        },
+        {
+          "bookName": "Unique Book Title 029-4",
+          "bookAuthor": "Author G",
+          "publication": "2016-11-28"
+        }
+      ]
+    },
+    {
+      "username": "user030",
+      "userFullName": "Test User 030",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 030-1",
+          "bookAuthor": "Author E",
+          "publication": "2023-03-08"
+        }
+      ]
+    },
+    {
+      "username": "user031",
+      "userFullName": "Test User 031",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 031-1",
+          "bookAuthor": "Author F",
+          "publication": "2000-04-08"
+        },
+        {
+          "bookName": "Unique Book Title 031-2",
+          "bookAuthor": "Author G",
+          "publication": "2013-02-06"
+        },
+        {
+          "bookName": "Unique Book Title 031-3",
+          "bookAuthor": "Author H",
+          "publication": "2008-04-15"
+        },
+        {
+          "bookName": "Unique Book Title 031-4",
+          "bookAuthor": "Author I",
+          "publication": "2000-11-13"
+        },
+        {
+          "bookName": "Unique Book Title 031-5",
+          "bookAuthor": "Author J",
+          "publication": "2010-06-08"
+        }
+      ]
+    },
+    {
+      "username": "user032",
+      "userFullName": "Test User 032",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 032-1",
+          "bookAuthor": "Author G",
+          "publication": "2012-04-16"
+        }
+      ]
+    },
+    {
+      "username": "user033",
+      "userFullName": "Test User 033",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 033-1",
+          "bookAuthor": "Author H",
+          "publication": "2006-02-02"
+        },
+        {
+          "bookName": "Unique Book Title 033-2",
+          "bookAuthor": "Author I",
+          "publication": "2015-03-13"
+        },
+        {
+          "bookName": "Unique Book Title 033-3",
+          "bookAuthor": "Author J",
+          "publication": "2004-09-02"
+        },
+        {
+          "bookName": "Unique Book Title 033-4",
+          "bookAuthor": "Author K",
+          "publication": "2006-04-27"
+        },
+        {
+          "bookName": "Unique Book Title 033-5",
+          "bookAuthor": "Author L",
+          "publication": "2005-09-06"
+        }
+      ]
+    },
+    {
+      "username": "user034",
+      "userFullName": "Test User 034",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 034-1",
+          "bookAuthor": "Author I",
+          "publication": "2014-11-10"
+        },
+        {
+          "bookName": "Unique Book Title 034-2",
+          "bookAuthor": "Author J",
+          "publication": "2004-01-12"
+        },
+        {
+          "bookName": "Unique Book Title 034-3",
+          "bookAuthor": "Author K",
+          "publication": "2001-07-03"
+        },
+        {
+          "bookName": "Unique Book Title 034-4",
+          "bookAuthor": "Author L",
+          "publication": "2001-05-31"
+        }
+      ]
+    },
+    {
+      "username": "user035",
+      "userFullName": "Test User 035",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 035-1",
+          "bookAuthor": "Author J",
+          "publication": "2002-04-11"
+        },
+        {
+          "bookName": "Unique Book Title 035-2",
+          "bookAuthor": "Author K",
+          "publication": "2001-07-18"
+        },
+        {
+          "bookName": "Unique Book Title 035-3",
+          "bookAuthor": "Author L",
+          "publication": "2021-12-30"
+        }
+      ]
+    },
+    {
+      "username": "user036",
+      "userFullName": "Test User 036",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 036-1",
+          "bookAuthor": "Author K",
+          "publication": "2010-06-10"
+        },
+        {
+          "bookName": "Unique Book Title 036-2",
+          "bookAuthor": "Author L",
+          "publication": "2011-06-02"
+        },
+        {
+          "bookName": "Unique Book Title 036-3",
+          "bookAuthor": "Author M",
+          "publication": "2021-09-18"
+        },
+        {
+          "bookName": "Unique Book Title 036-4",
+          "bookAuthor": "Author N",
+          "publication": "2017-04-04"
+        },
+        {
+          "bookName": "Unique Book Title 036-5",
+          "bookAuthor": "Author O",
+          "publication": "2018-06-05"
+        }
+      ]
+    },
+    {
+      "username": "user037",
+      "userFullName": "Test User 037",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 037-1",
+          "bookAuthor": "Author L",
+          "publication": "2007-04-30"
+        },
+        {
+          "bookName": "Unique Book Title 037-2",
+          "bookAuthor": "Author M",
+          "publication": "2015-08-28"
+        },
+        {
+          "bookName": "Unique Book Title 037-3",
+          "bookAuthor": "Author N",
+          "publication": "2021-10-06"
+        }
+      ]
+    },
+    {
+      "username": "user038",
+      "userFullName": "Test User 038",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 038-1",
+          "bookAuthor": "Author M",
+          "publication": "2012-10-24"
+        },
+        {
+          "bookName": "Unique Book Title 038-2",
+          "bookAuthor": "Author N",
+          "publication": "2022-12-19"
+        }
+      ]
+    },
+    {
+      "username": "user039",
+      "userFullName": "Test User 039",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 039-1",
+          "bookAuthor": "Author N",
+          "publication": "2002-11-07"
+        },
+        {
+          "bookName": "Unique Book Title 039-2",
+          "bookAuthor": "Author O",
+          "publication": "2001-04-12"
+        },
+        {
+          "bookName": "Unique Book Title 039-3",
+          "bookAuthor": "Author P",
+          "publication": "2020-12-06"
+        },
+        {
+          "bookName": "Unique Book Title 039-4",
+          "bookAuthor": "Author Q",
+          "publication": "2014-08-27"
+        },
+        {
+          "bookName": "Unique Book Title 039-5",
+          "bookAuthor": "Author R",
+          "publication": "2004-02-29"
+        }
+      ]
+    },
+    {
+      "username": "user040",
+      "userFullName": "Test User 040",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 040-1",
+          "bookAuthor": "Author O",
+          "publication": "2000-02-08"
+        },
+        {
+          "bookName": "Unique Book Title 040-2",
+          "bookAuthor": "Author P",
+          "publication": "2007-03-05"
+        }
+      ]
+    },
+    {
+      "username": "user041",
+      "userFullName": "Test User 041",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 041-1",
+          "bookAuthor": "Author P",
+          "publication": "2012-08-26"
+        },
+        {
+          "bookName": "Unique Book Title 041-2",
+          "bookAuthor": "Author Q",
+          "publication": "2007-06-15"
+        },
+        {
+          "bookName": "Unique Book Title 041-3",
+          "bookAuthor": "Author R",
+          "publication": "2003-05-03"
+        }
+      ]
+    },
+    {
+      "username": "user042",
+      "userFullName": "Test User 042",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 042-1",
+          "bookAuthor": "Author Q",
+          "publication": "2005-05-09"
+        },
+        {
+          "bookName": "Unique Book Title 042-2",
+          "bookAuthor": "Author R",
+          "publication": "2024-06-04"
+        },
+        {
+          "bookName": "Unique Book Title 042-3",
+          "bookAuthor": "Author S",
+          "publication": "2023-03-13"
+        },
+        {
+          "bookName": "Unique Book Title 042-4",
+          "bookAuthor": "Author T",
+          "publication": "2001-08-31"
+        }
+      ]
+    },
+    {
+      "username": "user043",
+      "userFullName": "Test User 043",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 043-1",
+          "bookAuthor": "Author R",
+          "publication": "2022-02-19"
+        },
+        {
+          "bookName": "Unique Book Title 043-2",
+          "bookAuthor": "Author S",
+          "publication": "2016-10-24"
+        },
+        {
+          "bookName": "Unique Book Title 043-3",
+          "bookAuthor": "Author T",
+          "publication": "2020-03-29"
+        }
+      ]
+    },
+    {
+      "username": "user044",
+      "userFullName": "Test User 044",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 044-1",
+          "bookAuthor": "Author S",
+          "publication": "2005-08-21"
+        },
+        {
+          "bookName": "Unique Book Title 044-2",
+          "bookAuthor": "Author T",
+          "publication": "2017-09-26"
+        },
+        {
+          "bookName": "Unique Book Title 044-3",
+          "bookAuthor": "Author U",
+          "publication": "2005-08-22"
+        },
+        {
+          "bookName": "Unique Book Title 044-4",
+          "bookAuthor": "Author V",
+          "publication": "2015-03-14"
+        },
+        {
+          "bookName": "Unique Book Title 044-5",
+          "bookAuthor": "Author W",
+          "publication": "2014-06-10"
+        }
+      ]
+    },
+    {
+      "username": "user045",
+      "userFullName": "Test User 045",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 045-1",
+          "bookAuthor": "Author T",
+          "publication": "2013-10-05"
+        },
+        {
+          "bookName": "Unique Book Title 045-2",
+          "bookAuthor": "Author U",
+          "publication": "2012-09-18"
+        },
+        {
+          "bookName": "Unique Book Title 045-3",
+          "bookAuthor": "Author V",
+          "publication": "2013-01-24"
+        }
+      ]
+    },
+    {
+      "username": "user046",
+      "userFullName": "Test User 046",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 046-1",
+          "bookAuthor": "Author U",
+          "publication": "2006-12-10"
+        },
+        {
+          "bookName": "Unique Book Title 046-2",
+          "bookAuthor": "Author V",
+          "publication": "2019-12-28"
+        },
+        {
+          "bookName": "Unique Book Title 046-3",
+          "bookAuthor": "Author W",
+          "publication": "2022-06-19"
+        },
+        {
+          "bookName": "Unique Book Title 046-4",
+          "bookAuthor": "Author X",
+          "publication": "2000-12-27"
+        },
+        {
+          "bookName": "Unique Book Title 046-5",
+          "bookAuthor": "Author Y",
+          "publication": "2024-02-03"
+        }
+      ]
+    },
+    {
+      "username": "user047",
+      "userFullName": "Test User 047",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 047-1",
+          "bookAuthor": "Author V",
+          "publication": "2015-12-07"
+        },
+        {
+          "bookName": "Unique Book Title 047-2",
+          "bookAuthor": "Author W",
+          "publication": "2024-09-23"
+        },
+        {
+          "bookName": "Unique Book Title 047-3",
+          "bookAuthor": "Author X",
+          "publication": "2011-11-01"
+        },
+        {
+          "bookName": "Unique Book Title 047-4",
+          "bookAuthor": "Author Y",
+          "publication": "2013-05-17"
+        }
+      ]
+    },
+    {
+      "username": "user048",
+      "userFullName": "Test User 048",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 048-1",
+          "bookAuthor": "Author W",
+          "publication": "2006-07-13"
+        },
+        {
+          "bookName": "Unique Book Title 048-2",
+          "bookAuthor": "Author X",
+          "publication": "2018-01-14"
+        }
+      ]
+    },
+    {
+      "username": "user049",
+      "userFullName": "Test User 049",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 049-1",
+          "bookAuthor": "Author X",
+          "publication": "2007-08-07"
+        },
+        {
+          "bookName": "Unique Book Title 049-2",
+          "bookAuthor": "Author Y",
+          "publication": "2007-09-22"
+        },
+        {
+          "bookName": "Unique Book Title 049-3",
+          "bookAuthor": "Author Z",
+          "publication": "2006-11-14"
+        },
+        {
+          "bookName": "Unique Book Title 049-4",
+          "bookAuthor": "Author A",
+          "publication": "2024-02-01"
+        }
+      ]
+    },
+    {
+      "username": "user050",
+      "userFullName": "Test User 050",
+      "userActive": true,
+      "books": [
+        {
+          "bookName": "Unique Book Title 050-1",
+          "bookAuthor": "Author Y",
+          "publication": "2011-07-11"
+        },
+        {
+          "bookName": "Unique Book Title 050-2",
+          "bookAuthor": "Author Z",
+          "publication": "2007-01-17"
+        },
+        {
+          "bookName": "Unique Book Title 050-3",
+          "bookAuthor": "Author A",
+          "publication": "2003-02-28"
+        }
+      ]
+    },
+    {
+      "username": "user051",
+      "userFullName": "Test User 051",
+      "userActive": false,
+      "books": [
+        {
+          "bookName": "Unique Book Title 051-1",
+          "bookAuthor": "Author Z",
+          "publication": "2018-05-20"
+        }
+      ]
+    }
+  ]
+}
